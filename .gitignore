@@ -1,0 +1,49 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Quartus / FPGA build artifacts
+/db/
+/incremental_db/
+/output_files/
+/simulation/
+/greybox_tmp/
+*.qws
+*.ppf
+*.ddb
+*.csv
+*.rpt
+*.done
+*.summary
+*.smsg
+*.pin
+*.ttf
+*.qdf
+*.bak
+
+# Programming files (often ignored, but sometimes kept for release)
+# Uncomment to ignore if you don't want binary bitstreams
+# *.sof
+# *.pof
+# *.jic
+# *.rbf
+
+# Docker specific
+quartus-docker/installer/
+quartus-docker/quartus_data/22.1std/
+quartus-docker/quartus_data/licenses/
+quartus-docker/quartus_data/logs/
+quartus-docker/quartus_data/nios2eds/
+quartus-docker/quartus_data/niosv/
+quartus-docker/quartus_data/quartus/
+quartus-docker/quartus_data/questa_fe/
+quartus-docker/quartus_data/questa_fse/
+quartus-docker/quartus_data/uninstall/
+quartus-docker/quartus_data/.qsys_edit/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
